@@ -1,0 +1,12 @@
+.services-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: lightgray;
+}
+
+.service-container{
+    border-right: 1px solid maroon;
+    margin-right: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

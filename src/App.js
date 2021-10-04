@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 // import Router
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -7,10 +6,13 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Services from './components/Services/Services';
-import ContactUs from './components/ContactUs/ContactUs';
+import Contacts from './components/Contacts/Contacts';
+import Footer from './components/Footer/Footer';
 // boostrap stylesheet
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NotFound from './components/NotFound/NotFound';
+
+
 
 function App() {
   return (
@@ -34,15 +36,15 @@ function App() {
             <Services></Services>
           </Route>
 
-          <Route path="/contactUs">
-            <ContactUs></ContactUs>
+          <Route path="/contacts">
+            <Contacts></Contacts>
           </Route>
 
           <Route path="*">
             <NotFound></NotFound>
           </Route>
-          
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

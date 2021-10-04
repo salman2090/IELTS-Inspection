@@ -1,0 +1,20 @@
+.header{
+    background-image: url(../Images/banner.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width:auto;
+    padding: 50px;
+}
+.bg{
+    background-color: lightgray;
+}
+.about-body{
+    padding: 20px;
+    text-align: left;
+}
+.text-coloring{
+    color: rgb(218, 49, 20);
+}

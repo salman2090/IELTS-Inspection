@@ -1,32 +1,24 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar} from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import './Header.css'
+import './Header.css';
 
 const Header = () => {
-    const activeStyle = {
-        fontWeight: "bold",
-        color: "red"
-    }
+    
     return (
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">Ielts Inspection</Navbar.Brand>
-                    <Nav className="me-auto">
-                        <NavLink activeStyle={activeStyle} to="/home">Home</NavLink>
-                        <NavLink activeStyle={activeStyle} to="/services">Services</NavLink>
-                        <NavLink activeStyle={activeStyle} to="/about">About</NavLink>
-                        <NavLink activeStyle={activeStyle} to="/contactUs">Contact Us</NavLink>
+                    <Navbar.Brand className="fw-bold fs-3" to="/home">IELTS Inspection</Navbar.Brand>
+                    <Nav className="navBar">
+                        <NavLink className="nav" to="/home">Home</NavLink>
+                        <NavLink className="nav" to="/services">Services</NavLink>
+                        <NavLink className="nav" to="/about">About</NavLink>
+                        <NavLink className="nav" to="/contacts">Contact Us</NavLink>
                     </Nav>
                 </Container>
             </Navbar>
-
-
-            <NavLink activeStyle={activeStyle} to="/home">Home</NavLink>
-            <NavLink activeStyle={activeStyle} to="/services">Services</NavLink>
-            <NavLink activeStyle={activeStyle} to="/about">About</NavLink>
-            <NavLink activeStyle={activeStyle} to="/about/contactUs">Contact Us</NavLink>
+  
         </div>
     );
 };
