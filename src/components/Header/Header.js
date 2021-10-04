@@ -1,6 +1,9 @@
 import React from 'react';
+// import boostrap components
 import { Container, Nav, Navbar} from 'react-bootstrap';
+// import react router components
 import { NavLink } from 'react-router-dom';
+// import custom stylesheet
 import './Header.css';
 
 const Header = () => {
@@ -18,7 +21,6 @@ const Header = () => {
                     </Nav>
                 </Container>
             </Navbar>
-  
         </div>
     );
 };

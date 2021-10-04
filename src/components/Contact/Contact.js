@@ -1,7 +1,8 @@
 import React from 'react';
+// import bootstrap components
 import { Card, CardGroup } from 'react-bootstrap';
+// import custom stylesheet
 import './Contact.css'
-
 //import font awesome icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faLocationArrow,  faMailBulk} from '@fortawesome/free-solid-svg-icons';
@@ -17,6 +18,7 @@ const Contact = (props) => {
     const emailIcon = <FontAwesomeIcon icon={faMailBulk} />
 
     return (    
+        // contact card details
         <div className="contact">
             <CardGroup>
             <Card className="m-5 mt-5 card-bg shadow p-3 mb-5 bg-body rounded">
@@ -28,8 +30,6 @@ const Contact = (props) => {
                    <h5><span>{phoneIcon}</span> {phone}</h5>
                    <br />
                    <h5><span>{emailIcon}</span> {email}</h5>
-                        
-                  
                 </Card.Body>
             </Card>
             </CardGroup>

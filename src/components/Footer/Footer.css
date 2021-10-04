@@ -1,9 +1,17 @@
 .bg-footer{
     background-color: rgb(2, 71, 71);
-    
+    color: white;
+    padding: 15px;
 }
 .footer{
     color: whitesmoke;
-    padding: 20px;
+    margin-top: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer-text{
+    border: 3px solid maroon;
+    border-radius: 50px;
+    width: 450px;
+    margin: auto;
+    padding: 10px;
 }

@@ -1,5 +1,7 @@
 import React from 'react';
+// import bootstrap stylesheet
 import { Card, CardGroup } from 'react-bootstrap';
+// import custom stylesheet
 import './Service.css'
 
 const Service = (props) => {

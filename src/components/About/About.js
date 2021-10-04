@@ -1,4 +1,5 @@
 import React from 'react';
+// import custom stylesheet
 import './About.css';
 
 const About = () => {
@@ -8,8 +9,7 @@ const About = () => {
                 <h1 className="fw-bold">Explore Us</h1>
             </div>
             <div className="about-body">
-                <h2 className="mt-5 mb-3 fw-bold border border-white rounded text-center p-3 ">Why choosing <span className="text-coloring">IELTS Inspection?</span> </h2>
-                {/* <h4>We build connections, understanding and trust between people throughout the world with the English language.</h4> */}
+                <h2 className="mt-5 mb-3 fw-bold border border-white rounded text-center p-3 ">Why choosing <span className="text-coloring">IELTS Inspection?</span></h2>
 
                 <p className="fs-4">We provide the guidance and we were nominated the best IELTS coaching in Dhaka with excellent success records. We offer the IELTS courses Our courses by highly experienced experts qualified from United Kingdom and Australia. NextStep offers bespoke IELTS coaching in Dhaka with personalized feedback.</p><br />
 

@@ -1,12 +1,16 @@
 import React from 'react';
+// import hooks
 import { useEffect } from 'react';
 import { useState } from 'react';
+// import components
 import Service from '../Service/Service';
+// import custom stylesheet
 import './Services.css'
 
 const Services = () => {
     const[services, setServices] = useState([]);
 
+    // load data
     useEffect( () => {
         fetch('./services.json')
             .then(res => res.json())
