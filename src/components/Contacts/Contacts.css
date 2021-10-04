@@ -4,6 +4,16 @@
     background-color: lightgray;
 }
 
+.header-text{
+    border: 3px solid whitesmoke;
+    align-items: center;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
 .contact-container{
     border-right: 1px solid maroon;
     margin-right: 5px;

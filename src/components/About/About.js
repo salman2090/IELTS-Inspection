@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className="bg">
             <div className="header">
-                <h1 className="fw-bold text-success">Explore Us</h1>
+                <h1 className="fw-bold">Explore Us</h1>
             </div>
             <div className="about-body">
                 <h2 className="mt-5 mb-3 fw-bold border border-white rounded text-center p-3 ">Why choosing <span className="text-coloring">IELTS Inspection?</span> </h2>

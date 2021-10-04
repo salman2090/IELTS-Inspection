@@ -9,11 +9,11 @@ const Service = (props) => {
         <div className="service">
             <CardGroup>
             <Card className="m-5 mt-5 card-bg shadow p-3 mb-5 bg-body rounded">
-                <Card.Img variant="top " className="rounded-circle border border-1 border-dark" src={img} />
+                <Card.Img variant="top " className="mt-3 rounded-circle border border-1 border-dark" src={img} />
                 <Card.Body>
                    <h3>{name}</h3>
                    <br />
-                   <h4>Price: {price}</h4>
+                   <h4>Fee: {price} Taka</h4>
                    <br />
                    <hr />
                    <h5 className="p-3">{text}</h5>

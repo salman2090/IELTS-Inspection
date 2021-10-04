@@ -4,8 +4,8 @@ import './Contact.css'
 
 //import font awesome icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faPlusCircle, faPhone, faIdCard, faLocationArrow, faVoicemail, faMailBulk} from '@fortawesome/free-solid-svg-icons';
-import { faMailchimp } from '@fortawesome/free-brands-svg-icons';
+import { faPhone, faLocationArrow,  faMailBulk} from '@fortawesome/free-solid-svg-icons';
+
 
 const Contact = (props) => {
     const {name, location, phone, email} = props.contact;
@@ -23,9 +23,9 @@ const Contact = (props) => {
                 <Card.Body>
                    <h2>{name}</h2>
                    <br /><br />
-                   <h5><span>{locationIcon}</span>{' '}&emsp;{location}</h5>
+                   <h5><span>{locationIcon}</span>{' '}&emsp; {location}</h5>
                    <br /><br />
-                   <h5><span>{phoneIcon}</span>{' '}&emsp;{phone}</h5>
+                   <h5><span>{phoneIcon}</span> {phone}</h5>
                    <br />
                    <h5><span>{emailIcon}</span> {email}</h5>
                         

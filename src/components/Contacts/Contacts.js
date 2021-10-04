@@ -17,7 +17,9 @@ const Contacts = () => {
 
     return (
         <div className="contacts-container">
-            
+            <img className="mx-auto mt-3 img-fluid" src="./contact-banner.gif" alt="" />
+            <h1 className="mt-5 header-text">Get in touch with us</h1>    
+
             <div className="contact-container">
                 {
                     contacts.map(contact => <Contact
@@ -27,7 +29,7 @@ const Contacts = () => {
                     )
                 }
             </div>
-            
+
         </div>
     );
 };

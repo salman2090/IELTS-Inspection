@@ -1,0 +1,30 @@
+.bg{
+    background-color: lightgray;
+}
+.heading{
+    border: 3px solid white;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+.heading-text{
+    color:maroon;  
+}
+.card-display{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+}
+.card-decoration{
+    margin: 50px;
+    padding: 30px;
+    
+}
+.feedback-heading{
+    background-color: maroon;
+    color: white;
+    padding: 20px;   
+}

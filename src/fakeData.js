@@ -28,22 +28,36 @@ const service = [
         text:'Learn English Spoken at your own pace. Start today and improve your speaking skills with us.'
     },
     {
-        name: 'Grammar and Writing',
+        name:'Mock Speaking Test',
         id: 'A101',
+        price:1000,
+        img:'https://youtuberead.com/images/default/sd/I_VTQP4UPWE.jpg',
+        text:'Take our Mock Speaking practice test to help improve and familiarise yourself with IELTS Speaking exam.'
+    },
+    {
+        name: 'Grammar and Writing',
+        id: 'A110',
         price: 4000,
         img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREMO9Hr-C67SVfwLrvWGHX8p_WmS1WNGHDXA&usqp=CAU',
         text:'We designed this course to provide our students with the necessary skills of English Grammar and writing.'
     },
     {
+        name: 'English Language Club',
+        id:'A111',
+        price: 2000,
+        img:'https://www.siliconchips-services.com/wp-content/uploads/2020/04/Translation.jpg',
+        text:'The program is designed to help you complete your preparations for english related tests in a short time focusing on all the aspects '
+    },
+    {
         name: 'Training for Mentors',
-        id: 'A110',
+        id: 'A121',
         price: 8000,
         img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnNYdag8nrbT-iZsNxxGiTRfyu5L1Q-Ur_VQ&usqp=CAU',
         text:'This course is intended to engage master trainers with a particular topic or skill, or with training overall.'
     },
     {
         name: 'Consultation',
-        id: 'A111',
+        id: 'A122',
         price: 5000,
         img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaSwlSZnA39PmregXOPwQASqzuA4_TC9fE9Q&usqp=CAU',
         text:'Our consultation service will guide you to pursue your career smoothly and efficiently.'
